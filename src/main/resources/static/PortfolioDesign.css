@@ -1,22 +1,21 @@
-/* ALL */
+/* ALL
+ ------------------------------------------*/
 * {
     margin: 0px;
     padding: 0px;
     background-color: darkslategray;
 }
 
-body {
-    color: linen
-}
+body {color: linen}
 
-h3 {
-    font-family: Helvetica;
-}
+h3 {font-family: Helvetica;}
 
-/* Navigation bar*/
+/* Navigation bar
+ ------------------------------------------*/
 
 
-/* Introduction */
+/* Introduction
+ ------------------------------------------*/
 h1 {
     font-size: 55px;
     font-family: Helvetica;
@@ -24,10 +23,7 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
-    font-size: 30px;
-
-}
+h2 {font-size: 30px;}
 
 .introContent {
     font-size: 17px;
@@ -35,28 +31,38 @@ h2 {
     padding: 20px;
 }
 
-/* About Me */
+/* About Me
+ ------------------------------------------*/
+.lists {float: left;}
+.lists section {width: 40%; float: left;}
 .descLine {
     font-weight: bold;
     font-size: 17px;
 }
+.prevJobs {padding: 20px;}
+.education {padding: 20px;}
 
-/* Projects */
-.btn{
-
+/* Projects
+ ------------------------------------------*/
+.projects .btn {
+    background: dimgrey;
+    color: floralwhite;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 8px;
 }
+.projects {padding: 20px;}
 
 
-/* Contact */
-h4{
-    font-family: Helvetica;
-}
+/* Contact
+ ------------------------------------------*/
+h4 {font-family: Helvetica;}
 
-a {
-    color: bisque;
-}
+a {color: bisque;}
 
 a:hover {
     opacity: 80%;
     text-decoration: none;
 }
+
+#contact {padding: 20px;}
