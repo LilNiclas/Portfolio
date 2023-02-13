@@ -1,0 +1,62 @@
+/* ALL */
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: darkslategray;
+}
+
+body {
+    color: linen
+}
+
+h3 {
+    font-family: Helvetica;
+}
+
+/* Navigation bar*/
+
+
+/* Introduction */
+h1 {
+    font-size: 55px;
+    font-family: Helvetica;
+    padding: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+.introContent {
+    font-size: 17px;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* About Me */
+.descLine {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Projects */
+.btn{
+
+}
+
+
+/* Contact */
+h4{
+    font-family: Helvetica;
+}
+
+a {
+    color: bisque;
+}
+
+a:hover {
+    opacity: 80%;
+    text-decoration: none;
+}
